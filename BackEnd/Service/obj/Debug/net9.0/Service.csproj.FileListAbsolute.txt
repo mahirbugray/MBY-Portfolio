@@ -1,0 +1,34 @@
+C:\Users\ROG\Desktop\Yazılım Çalışma\AspNetCoreCalismalarim\WebSite\BackEnd\Service\bin\Debug\net9.0\Service.deps.json
+C:\Users\ROG\Desktop\Yazılım Çalışma\AspNetCoreCalismalarim\WebSite\BackEnd\Service\bin\Debug\net9.0\Service.dll
+C:\Users\ROG\Desktop\Yazılım Çalışma\AspNetCoreCalismalarim\WebSite\BackEnd\Service\bin\Debug\net9.0\Service.pdb
+C:\Users\ROG\Desktop\Yazılım Çalışma\AspNetCoreCalismalarim\WebSite\BackEnd\Service\bin\Debug\net9.0\DataAccess.dll
+C:\Users\ROG\Desktop\Yazılım Çalışma\AspNetCoreCalismalarim\WebSite\BackEnd\Service\bin\Debug\net9.0\Entity.dll
+C:\Users\ROG\Desktop\Yazılım Çalışma\AspNetCoreCalismalarim\WebSite\BackEnd\Service\bin\Debug\net9.0\DataAccess.pdb
+C:\Users\ROG\Desktop\Yazılım Çalışma\AspNetCoreCalismalarim\WebSite\BackEnd\Service\bin\Debug\net9.0\Entity.pdb
+C:\Users\ROG\Desktop\Yazılım Çalışma\AspNetCoreCalismalarim\WebSite\BackEnd\Service\obj\Debug\net9.0\Service.csproj.AssemblyReference.cache
+C:\Users\ROG\Desktop\Yazılım Çalışma\AspNetCoreCalismalarim\WebSite\BackEnd\Service\obj\Debug\net9.0\Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ROG\Desktop\Yazılım Çalışma\AspNetCoreCalismalarim\WebSite\BackEnd\Service\obj\Debug\net9.0\Service.AssemblyInfoInputs.cache
+C:\Users\ROG\Desktop\Yazılım Çalışma\AspNetCoreCalismalarim\WebSite\BackEnd\Service\obj\Debug\net9.0\Service.AssemblyInfo.cs
+C:\Users\ROG\Desktop\Yazılım Çalışma\AspNetCoreCalismalarim\WebSite\BackEnd\Service\obj\Debug\net9.0\Service.csproj.CoreCompileInputs.cache
+C:\Users\ROG\Desktop\Yazılım Çalışma\AspNetCoreCalismalarim\WebSite\BackEnd\Service\obj\Debug\net9.0\Service.csproj.Up2Date
+C:\Users\ROG\Desktop\Yazılım Çalışma\AspNetCoreCalismalarim\WebSite\BackEnd\Service\obj\Debug\net9.0\Service.dll
+C:\Users\ROG\Desktop\Yazılım Çalışma\AspNetCoreCalismalarim\WebSite\BackEnd\Service\obj\Debug\net9.0\refint\Service.dll
+C:\Users\ROG\Desktop\Yazılım Çalışma\AspNetCoreCalismalarim\WebSite\BackEnd\Service\obj\Debug\net9.0\Service.pdb
+C:\Users\ROG\Desktop\Yazılım Çalışma\AspNetCoreCalismalarim\WebSite\BackEnd\Service\obj\Debug\net9.0\ref\Service.dll
+C:\Users\ROG\Desktop\SoftwareProjects\AspNetCoreCalismalarim\WebSite\BackEnd\Service\bin\Debug\net9.0\Service.deps.json
+C:\Users\ROG\Desktop\SoftwareProjects\AspNetCoreCalismalarim\WebSite\BackEnd\Service\bin\Debug\net9.0\Service.dll
+C:\Users\ROG\Desktop\SoftwareProjects\AspNetCoreCalismalarim\WebSite\BackEnd\Service\bin\Debug\net9.0\Service.pdb
+C:\Users\ROG\Desktop\SoftwareProjects\AspNetCoreCalismalarim\WebSite\BackEnd\Service\bin\Debug\net9.0\DataAccess.dll
+C:\Users\ROG\Desktop\SoftwareProjects\AspNetCoreCalismalarim\WebSite\BackEnd\Service\bin\Debug\net9.0\Entity.dll
+C:\Users\ROG\Desktop\SoftwareProjects\AspNetCoreCalismalarim\WebSite\BackEnd\Service\bin\Debug\net9.0\DataAccess.pdb
+C:\Users\ROG\Desktop\SoftwareProjects\AspNetCoreCalismalarim\WebSite\BackEnd\Service\bin\Debug\net9.0\Entity.pdb
+C:\Users\ROG\Desktop\SoftwareProjects\AspNetCoreCalismalarim\WebSite\BackEnd\Service\obj\Debug\net9.0\Service.csproj.AssemblyReference.cache
+C:\Users\ROG\Desktop\SoftwareProjects\AspNetCoreCalismalarim\WebSite\BackEnd\Service\obj\Debug\net9.0\Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ROG\Desktop\SoftwareProjects\AspNetCoreCalismalarim\WebSite\BackEnd\Service\obj\Debug\net9.0\Service.AssemblyInfoInputs.cache
+C:\Users\ROG\Desktop\SoftwareProjects\AspNetCoreCalismalarim\WebSite\BackEnd\Service\obj\Debug\net9.0\Service.AssemblyInfo.cs
+C:\Users\ROG\Desktop\SoftwareProjects\AspNetCoreCalismalarim\WebSite\BackEnd\Service\obj\Debug\net9.0\Service.csproj.CoreCompileInputs.cache
+C:\Users\ROG\Desktop\SoftwareProjects\AspNetCoreCalismalarim\WebSite\BackEnd\Service\obj\Debug\net9.0\Service.csproj.Up2Date
+C:\Users\ROG\Desktop\SoftwareProjects\AspNetCoreCalismalarim\WebSite\BackEnd\Service\obj\Debug\net9.0\Service.dll
+C:\Users\ROG\Desktop\SoftwareProjects\AspNetCoreCalismalarim\WebSite\BackEnd\Service\obj\Debug\net9.0\refint\Service.dll
+C:\Users\ROG\Desktop\SoftwareProjects\AspNetCoreCalismalarim\WebSite\BackEnd\Service\obj\Debug\net9.0\Service.pdb
+C:\Users\ROG\Desktop\SoftwareProjects\AspNetCoreCalismalarim\WebSite\BackEnd\Service\obj\Debug\net9.0\ref\Service.dll

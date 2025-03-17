@@ -1,0 +1,22 @@
+C:\Users\ROG\Desktop\Yazılım Çalışma\AspNetCoreCalismalarim\WebSite\BackEnd\Entity\obj\Debug\net9.0\Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ROG\Desktop\Yazılım Çalışma\AspNetCoreCalismalarim\WebSite\BackEnd\Entity\obj\Debug\net9.0\Entity.AssemblyInfoInputs.cache
+C:\Users\ROG\Desktop\Yazılım Çalışma\AspNetCoreCalismalarim\WebSite\BackEnd\Entity\obj\Debug\net9.0\Entity.AssemblyInfo.cs
+C:\Users\ROG\Desktop\Yazılım Çalışma\AspNetCoreCalismalarim\WebSite\BackEnd\Entity\obj\Debug\net9.0\Entity.csproj.CoreCompileInputs.cache
+C:\Users\ROG\Desktop\Yazılım Çalışma\AspNetCoreCalismalarim\WebSite\BackEnd\Entity\bin\Debug\net9.0\Entity.deps.json
+C:\Users\ROG\Desktop\Yazılım Çalışma\AspNetCoreCalismalarim\WebSite\BackEnd\Entity\bin\Debug\net9.0\Entity.dll
+C:\Users\ROG\Desktop\Yazılım Çalışma\AspNetCoreCalismalarim\WebSite\BackEnd\Entity\bin\Debug\net9.0\Entity.pdb
+C:\Users\ROG\Desktop\Yazılım Çalışma\AspNetCoreCalismalarim\WebSite\BackEnd\Entity\obj\Debug\net9.0\Entity.dll
+C:\Users\ROG\Desktop\Yazılım Çalışma\AspNetCoreCalismalarim\WebSite\BackEnd\Entity\obj\Debug\net9.0\refint\Entity.dll
+C:\Users\ROG\Desktop\Yazılım Çalışma\AspNetCoreCalismalarim\WebSite\BackEnd\Entity\obj\Debug\net9.0\Entity.pdb
+C:\Users\ROG\Desktop\Yazılım Çalışma\AspNetCoreCalismalarim\WebSite\BackEnd\Entity\obj\Debug\net9.0\ref\Entity.dll
+C:\Users\ROG\Desktop\SoftwareProjects\AspNetCoreCalismalarim\WebSite\BackEnd\Entity\bin\Debug\net9.0\Entity.deps.json
+C:\Users\ROG\Desktop\SoftwareProjects\AspNetCoreCalismalarim\WebSite\BackEnd\Entity\bin\Debug\net9.0\Entity.dll
+C:\Users\ROG\Desktop\SoftwareProjects\AspNetCoreCalismalarim\WebSite\BackEnd\Entity\bin\Debug\net9.0\Entity.pdb
+C:\Users\ROG\Desktop\SoftwareProjects\AspNetCoreCalismalarim\WebSite\BackEnd\Entity\obj\Debug\net9.0\Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ROG\Desktop\SoftwareProjects\AspNetCoreCalismalarim\WebSite\BackEnd\Entity\obj\Debug\net9.0\Entity.AssemblyInfoInputs.cache
+C:\Users\ROG\Desktop\SoftwareProjects\AspNetCoreCalismalarim\WebSite\BackEnd\Entity\obj\Debug\net9.0\Entity.AssemblyInfo.cs
+C:\Users\ROG\Desktop\SoftwareProjects\AspNetCoreCalismalarim\WebSite\BackEnd\Entity\obj\Debug\net9.0\Entity.csproj.CoreCompileInputs.cache
+C:\Users\ROG\Desktop\SoftwareProjects\AspNetCoreCalismalarim\WebSite\BackEnd\Entity\obj\Debug\net9.0\Entity.dll
+C:\Users\ROG\Desktop\SoftwareProjects\AspNetCoreCalismalarim\WebSite\BackEnd\Entity\obj\Debug\net9.0\refint\Entity.dll
+C:\Users\ROG\Desktop\SoftwareProjects\AspNetCoreCalismalarim\WebSite\BackEnd\Entity\obj\Debug\net9.0\Entity.pdb
+C:\Users\ROG\Desktop\SoftwareProjects\AspNetCoreCalismalarim\WebSite\BackEnd\Entity\obj\Debug\net9.0\ref\Entity.dll

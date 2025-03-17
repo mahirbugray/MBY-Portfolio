@@ -1,0 +1,34 @@
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f5f8fa;
+}
+
+.form-box {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+h2 {
+  text-align: center;
+  color: #34495e;
+}
+
+.btn-primary {
+  width: 100%;
+  padding: 10px;
+  background: #1abc9c;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn-primary:hover {
+  background: #16a085;
+}

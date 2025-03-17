@@ -1,0 +1,35 @@
+C:\Users\ROG\Desktop\Yazılım Çalışma\AspNetCoreCalismalarim\WebSite\BackEnd\DataAccess\obj\Debug\net9.0\DataAccess.csproj.AssemblyReference.cache
+C:\Users\ROG\Desktop\Yazılım Çalışma\AspNetCoreCalismalarim\WebSite\BackEnd\DataAccess\obj\Debug\net9.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ROG\Desktop\Yazılım Çalışma\AspNetCoreCalismalarim\WebSite\BackEnd\DataAccess\obj\Debug\net9.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\ROG\Desktop\Yazılım Çalışma\AspNetCoreCalismalarim\WebSite\BackEnd\DataAccess\obj\Debug\net9.0\DataAccess.AssemblyInfo.cs
+C:\Users\ROG\Desktop\Yazılım Çalışma\AspNetCoreCalismalarim\WebSite\BackEnd\DataAccess\obj\Debug\net9.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\ROG\Desktop\Yazılım Çalışma\AspNetCoreCalismalarim\WebSite\BackEnd\DataAccess\bin\Debug\net9.0\DataAccess.deps.json
+C:\Users\ROG\Desktop\Yazılım Çalışma\AspNetCoreCalismalarim\WebSite\BackEnd\DataAccess\bin\Debug\net9.0\DataAccess.dll
+C:\Users\ROG\Desktop\Yazılım Çalışma\AspNetCoreCalismalarim\WebSite\BackEnd\DataAccess\bin\Debug\net9.0\DataAccess.pdb
+C:\Users\ROG\Desktop\Yazılım Çalışma\AspNetCoreCalismalarim\WebSite\BackEnd\DataAccess\bin\Debug\net9.0\Entity.dll
+C:\Users\ROG\Desktop\Yazılım Çalışma\AspNetCoreCalismalarim\WebSite\BackEnd\DataAccess\bin\Debug\net9.0\Entity.pdb
+C:\Users\ROG\Desktop\Yazılım Çalışma\AspNetCoreCalismalarim\WebSite\BackEnd\DataAccess\obj\Debug\net9.0\DataAccess.csproj.Up2Date
+C:\Users\ROG\Desktop\Yazılım Çalışma\AspNetCoreCalismalarim\WebSite\BackEnd\DataAccess\obj\Debug\net9.0\DataAccess.dll
+C:\Users\ROG\Desktop\Yazılım Çalışma\AspNetCoreCalismalarim\WebSite\BackEnd\DataAccess\obj\Debug\net9.0\refint\DataAccess.dll
+C:\Users\ROG\Desktop\Yazılım Çalışma\AspNetCoreCalismalarim\WebSite\BackEnd\DataAccess\obj\Debug\net9.0\DataAccess.pdb
+C:\Users\ROG\Desktop\Yazılım Çalışma\AspNetCoreCalismalarim\WebSite\BackEnd\DataAccess\obj\Debug\net9.0\ref\DataAccess.dll
+C:\Users\ROG\Desktop\SoftwareProjects\AspNetCoreCalismalarim\WebSite\BackEnd\DataAccess\bin\Debug\net9.0\DataAccess.deps.json
+C:\Users\ROG\Desktop\SoftwareProjects\AspNetCoreCalismalarim\WebSite\BackEnd\DataAccess\bin\Debug\net9.0\DataAccess.dll
+C:\Users\ROG\Desktop\SoftwareProjects\AspNetCoreCalismalarim\WebSite\BackEnd\DataAccess\bin\Debug\net9.0\DataAccess.pdb
+C:\Users\ROG\Desktop\SoftwareProjects\AspNetCoreCalismalarim\WebSite\BackEnd\DataAccess\bin\Debug\net9.0\Entity.dll
+C:\Users\ROG\Desktop\SoftwareProjects\AspNetCoreCalismalarim\WebSite\BackEnd\DataAccess\bin\Debug\net9.0\Entity.pdb
+C:\Users\ROG\Desktop\SoftwareProjects\AspNetCoreCalismalarim\WebSite\BackEnd\BackEnd\DataAccess\bin\Debug\net9.0\net9.0\DataAccess.deps.json
+C:\Users\ROG\Desktop\SoftwareProjects\AspNetCoreCalismalarim\WebSite\BackEnd\BackEnd\DataAccess\bin\Debug\net9.0\net9.0\DataAccess.runtimeconfig.json
+C:\Users\ROG\Desktop\SoftwareProjects\AspNetCoreCalismalarim\WebSite\BackEnd\BackEnd\DataAccess\bin\Debug\net9.0\net9.0\DataAccess.dll
+C:\Users\ROG\Desktop\SoftwareProjects\AspNetCoreCalismalarim\WebSite\BackEnd\BackEnd\DataAccess\bin\Debug\net9.0\net9.0\DataAccess.pdb
+C:\Users\ROG\Desktop\SoftwareProjects\AspNetCoreCalismalarim\WebSite\BackEnd\DataAccess\obj\Debug\net9.0\DataAccess.csproj.AssemblyReference.cache
+C:\Users\ROG\Desktop\SoftwareProjects\AspNetCoreCalismalarim\WebSite\BackEnd\DataAccess\obj\Debug\net9.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ROG\Desktop\SoftwareProjects\AspNetCoreCalismalarim\WebSite\BackEnd\DataAccess\obj\Debug\net9.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\ROG\Desktop\SoftwareProjects\AspNetCoreCalismalarim\WebSite\BackEnd\DataAccess\obj\Debug\net9.0\DataAccess.AssemblyInfo.cs
+C:\Users\ROG\Desktop\SoftwareProjects\AspNetCoreCalismalarim\WebSite\BackEnd\DataAccess\obj\Debug\net9.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\ROG\Desktop\SoftwareProjects\AspNetCoreCalismalarim\WebSite\BackEnd\DataAccess\obj\Debug\net9.0\DataAccess.csproj.Up2Date
+C:\Users\ROG\Desktop\SoftwareProjects\AspNetCoreCalismalarim\WebSite\BackEnd\DataAccess\obj\Debug\net9.0\DataAccess.dll
+C:\Users\ROG\Desktop\SoftwareProjects\AspNetCoreCalismalarim\WebSite\BackEnd\DataAccess\obj\Debug\net9.0\refint\DataAccess.dll
+C:\Users\ROG\Desktop\SoftwareProjects\AspNetCoreCalismalarim\WebSite\BackEnd\DataAccess\obj\Debug\net9.0\DataAccess.pdb
+C:\Users\ROG\Desktop\SoftwareProjects\AspNetCoreCalismalarim\WebSite\BackEnd\DataAccess\obj\Debug\net9.0\DataAccess.genruntimeconfig.cache
+C:\Users\ROG\Desktop\SoftwareProjects\AspNetCoreCalismalarim\WebSite\BackEnd\DataAccess\obj\Debug\net9.0\ref\DataAccess.dll
