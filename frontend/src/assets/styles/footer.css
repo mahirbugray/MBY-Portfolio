@@ -1,0 +1,89 @@
+.footer {
+  background: #2a2a2a; /* Siteye uygun koyu ton */
+  color: white;
+  padding: 60px 40px;
+  text-align: center;
+  width: 100%;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-logo .logo {
+  font-size: 2em;
+  font-weight: 700;
+  color: white; /* Logo rengini beyaz yapıyoruz */
+  text-decoration: none;
+}
+
+.footer-logo .logo:hover {
+  color: #ff8a3a; /* Hover durumunda daha açık bir renk */
+}
+
+.footer-links {
+  list-style: none;
+  display: flex;
+  gap: 60px; /* Aralarındaki boşluğu 60px yapıyoruz */
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1em;
+}
+
+.footer-links a:hover {
+  color: #ff6347; /* Link hover rengini siteyle uyumlu yapıyoruz */
+}
+
+.social-media {
+  margin-top: 30px;
+}
+
+.social-title {
+  font-size: 1.2em;
+  color: #ff6347;
+  margin-bottom: 15px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 20px; /* İkonlar arasına boşluk */
+  justify-content: center;
+}
+
+.social-icon {
+  color: white;
+  font-size: 1.5em;
+}
+
+.social-icon:hover {
+  color: #ff6347;
+}
+
+.contact-info {
+  margin-top: 30px;
+  color: white;
+}
+
+.contact-title {
+  font-size: 1.2em;
+  color: #ff6347;
+  margin-bottom: 10px;
+}
+
+.contact-info p {
+  font-size: 1em;
+}
+
+.contact-info strong {
+  font-weight: bold;
+}
