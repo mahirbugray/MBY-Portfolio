@@ -77,22 +77,24 @@
         </form>
         <p v-if="errorMessage.general" class="error-message">{{ errorMessage.general }}</p>
       </div>
-      <!-- Success Alert -->
-      <div v-if="showSuccessPopup" class="success-alert">
-        <p>Kayıt başarılı! Şimdi giriş yapabilirsiniz.</p>
-        <button @click="redirectToLogin">Giriş Yap</button>
+      
+      <!-- Modern Success Popup -->
+      <div v-if="showSuccessPopup" class="success-popup">
+        <div class="popup-content">
+          <h3>✅ Kayıt Başarılı!</h3>
+          <p>Şimdi giriş sayfasına yönlendiriliyorsunuz...</p>
+        </div>
       </div>
     </div>
     <Footer />
   </div>
-
 </template>
 
 <script setup>
 import { ref } from "vue";
 import AuthService from "@/services/AuthService";
 import { useRouter } from "vue-router";
-import Datepicker from 'vue3-datepicker'; // Takvim kütüphanesini import et
+import Datepicker from 'vue3-datepicker';
 import Navbar from "@/components/Navbar.vue";
 import Footer from "@/components/Footer.vue";
 import "@/assets/styles/register.css";
@@ -125,27 +127,27 @@ const errorMessage = ref({
 
 const showSuccessPopup = ref(false);
 
+// Doğrulama Fonksiyonları
 const validateEmail = (email) => {
   const regex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
   return regex.test(email);
 };
 
 const validatePhoneNumber = (phone) => {
-  const regex = /^\+90\d{10}$/; // Türkiye telefon numarası formatı
+  const regex = /^\+90\d{10}$/;
   return regex.test(phone);
 };
 
 const validatePassword = (password) => {
-  const regex = /^(?=.*[a-z])(?=.*[A-Z]).{8,}$/; // En az 8 karakter, büyük ve küçük harf içermeli
+  const regex = /^(?=.*[a-z])(?=.*[A-Z]).{8,}$/;
   return regex.test(password);
 };
 
 const validateBirthdate = (birthdate) => {
   const age = new Date().getFullYear() - new Date(birthdate).getFullYear();
-  return age >= 18; // Kullanıcı 18 yaşından büyük olmalı
+  return age >= 18;
 };
 
-// Telefon numarasını +90 ile başlatma ve sadece rakam girilmesine izin verme
 const formatPhoneNumber = () => {
   if (!user.value.phonenumber.startsWith('+90')) {
     user.value.phonenumber = '+90' + user.value.phonenumber.replace(/[^\d]/g, '');
@@ -186,7 +188,7 @@ const registerUser = async () => {
 
   // Doğum tarihi doğrulama (Yaş kontrolü)
   if (!validateBirthdate(user.value.birthdate)) {
-    errorMessage.value.birthdate = "18 yaşından büyük olmanız gerekmektedir!";
+    errorMessage.value.birthdate = "18 yaşından büyük olmalısınız!";
     return;
   }
 
@@ -194,10 +196,11 @@ const registerUser = async () => {
     await AuthService.register(user.value);
     showSuccessPopup.value = true;
 
-    // Hide alert after 3 seconds
+    // Hide alert after 2 seconds
     setTimeout(() => {
       showSuccessPopup.value = false;
-    }, 3000);
+      router.push({ name: "login" });
+    }, 2000);
   } catch (error) {
     if (error.response && error.response.data) {
       const errors = error.response.data.errors;
@@ -210,10 +213,5 @@ const registerUser = async () => {
       errorMessage.value.general = "Kayıt sırasında bir hata oluştu!";
     }
   }
-};
-
-const redirectToLogin = () => {
-  showSuccessPopup.value = false;
-  router.push({ name: "login" });
 };
 </script>

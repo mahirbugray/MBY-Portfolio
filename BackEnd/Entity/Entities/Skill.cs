@@ -12,6 +12,7 @@ namespace Entity.Entities
         public int SkillPoint { get; set; }
         public string Url { get; set; }
         public bool IsApproved { get; set; }
-        public List<SkillCategory> SkillCategories { get; set; }
+        public int SkillCategoryId { get; set; }
+        public SkillCategory SkillCategory { get; set; }
     }
 }

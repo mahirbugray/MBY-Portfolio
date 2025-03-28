@@ -19,12 +19,11 @@ namespace DataAccess.Contexts
         public DbSet<About> Abouts { get; set; }
         public DbSet<Blog> Blogs { get; set; }
         public DbSet<BlogCategory> BlogCategories { get; set; }
-        public DbSet<CategorySkill> CategorySkills { get; set; }
         public DbSet<Comment> Comments { get; set; }
         public DbSet<Contact> Contacts { get; set; }
+        public DbSet<Certificate> Certificates { get; set; }
         public DbSet<ProfilePhoto> ProfilePhotos { get; set; }
         public DbSet<Project> Projects { get; set; }
-        public DbSet<ProjectCategory> ProjectCategories { get; set; }
         public DbSet<School> Schools { get; set; }
         public DbSet<Skill> Skills { get; set; }
         public DbSet<SkillCategory> SkillCategories { get; set; }

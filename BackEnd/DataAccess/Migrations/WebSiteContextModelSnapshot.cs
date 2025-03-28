@@ -257,7 +257,7 @@ namespace DataAccess.Migrations
                     b.ToTable("BlogCategories");
                 });
 
-            modelBuilder.Entity("Entity.Entities.CategorySkill", b =>
+            modelBuilder.Entity("Entity.Entities.Certificate", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -265,26 +265,38 @@ namespace DataAccess.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<string>("AwardingOrganisation")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("CertificateImage")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<DateTime>("CreatedDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<bool>("IsApproved")
-                        .HasColumnType("bit");
+                    b.Property<DateTime>("DateofIssue")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 
-                    b.Property<string>("SkillArea")
+                    b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Url")
+                    b.Property<string>("Title")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
-                    b.ToTable("CategorySkills");
+                    b.ToTable("Certificates");
                 });
 
             modelBuilder.Entity("Entity.Entities.Comment", b =>
@@ -404,6 +416,10 @@ namespace DataAccess.Migrations
                     b.Property<DateTime>("CreatedDate")
                         .HasColumnType("datetime2");
 
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<bool>("IsApproved")
                         .HasColumnType("bit");
 
@@ -416,49 +432,41 @@ namespace DataAccess.Migrations
                     b.Property<DateTime>("ProjectDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("ProjectHeader")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("ProjectImageUrl")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("ProjectText")
+                    b.Property<string>("ProjectImageUrl2")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("ProjectUrl")
+                    b.Property<string>("ProjectImageUrl3")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ProjectImageUrl4")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ProjectImageUrl5")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ProjectImageUrl6")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ProjectTitle")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Technologies")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
                     b.ToTable("Projects");
-                });
-
-            modelBuilder.Entity("Entity.Entities.ProjectCategory", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<DateTime>("CreatedDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<bool>("IsDeleted")
-                        .HasColumnType("bit");
-
-                    b.Property<int>("ProjectId")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("ProjectId");
-
-                    b.ToTable("ProjectCategories");
                 });
 
             modelBuilder.Entity("Entity.Entities.School", b =>
@@ -520,6 +528,9 @@ namespace DataAccess.Migrations
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 
+                    b.Property<int>("SkillCategoryId")
+                        .HasColumnType("int");
+
                     b.Property<int>("SkillPoint")
                         .HasColumnType("int");
 
@@ -533,6 +544,8 @@ namespace DataAccess.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("SkillCategoryId");
+
                     b.ToTable("Skills");
                 });
 
@@ -544,23 +557,21 @@ namespace DataAccess.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("CategorySkillId")
-                        .HasColumnType("int");
-
                     b.Property<DateTime>("CreatedDate")
                         .HasColumnType("datetime2");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 
-                    b.Property<int>("SkillId")
-                        .HasColumnType("int");
+                    b.Property<string>("SkillCategoryName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("CategorySkillId");
-
-                    b.HasIndex("SkillId");
 
                     b.ToTable("SkillCategories");
                 });
@@ -747,34 +758,15 @@ namespace DataAccess.Migrations
                     b.Navigation("Blog");
                 });
 
-            modelBuilder.Entity("Entity.Entities.ProjectCategory", b =>
+            modelBuilder.Entity("Entity.Entities.Skill", b =>
                 {
-                    b.HasOne("Entity.Entities.Project", "Project")
-                        .WithMany("ProjectCategories")
-                        .HasForeignKey("ProjectId")
+                    b.HasOne("Entity.Entities.SkillCategory", "SkillCategory")
+                        .WithMany("Skills")
+                        .HasForeignKey("SkillCategoryId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Project");
-                });
-
-            modelBuilder.Entity("Entity.Entities.SkillCategory", b =>
-                {
-                    b.HasOne("Entity.Entities.CategorySkill", "CategorySkill")
-                        .WithMany("SkillCategories")
-                        .HasForeignKey("CategorySkillId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("Entity.Entities.Skill", "Skill")
-                        .WithMany("SkillCategories")
-                        .HasForeignKey("SkillId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("CategorySkill");
-
-                    b.Navigation("Skill");
+                    b.Navigation("SkillCategory");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<int>", b =>
@@ -838,19 +830,9 @@ namespace DataAccess.Migrations
                     b.Navigation("Blogs");
                 });
 
-            modelBuilder.Entity("Entity.Entities.CategorySkill", b =>
+            modelBuilder.Entity("Entity.Entities.SkillCategory", b =>
                 {
-                    b.Navigation("SkillCategories");
-                });
-
-            modelBuilder.Entity("Entity.Entities.Project", b =>
-                {
-                    b.Navigation("ProjectCategories");
-                });
-
-            modelBuilder.Entity("Entity.Entities.Skill", b =>
-                {
-                    b.Navigation("SkillCategories");
+                    b.Navigation("Skills");
                 });
 
             modelBuilder.Entity("Entity.Entities.Tag", b =>

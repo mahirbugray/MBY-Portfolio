@@ -8,8 +8,8 @@ namespace Entity.Entities
 {
     public class SkillCategory : BaseEntity
     {
-        public CategorySkill CategorySkill { get; set; }
-        public int SkillId { get; set; }
-        public Skill Skill { get; set; }
+        public string SkillCategoryName { get; set; }
+        public string Description { get; set; }
+        public List<Skill> Skills { get; set; }
     }
 }
